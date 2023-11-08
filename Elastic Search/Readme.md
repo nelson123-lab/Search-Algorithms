@@ -1,0 +1,2 @@
+- Elastic search is a distributed database where the data is stored as JSON documents.
+- Stores the data in an inverted index.
