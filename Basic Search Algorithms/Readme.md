@@ -20,10 +20,11 @@ def linear_search(listA, search_element):
 
 ### Binary Search python code
 ```python
+# Binary search by default assumes array as sorted.
 def binary_search(listA, search_element):
   left, right = 0, len(listA)-1
   while left <= right:
-    mid = (right-left)//2
+    mid = (right+left)//2
 
     if listA[mid] == search_element:
       return mid
